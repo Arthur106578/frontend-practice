@@ -13,11 +13,11 @@
     <h2>基本信息</h2>
     <p>
       <label for="name">姓名：</label>
-      <input type="text" id="name" name="name" placeholder="请输入你的姓名">
+      <input type="text" id="name" name="name" placeholder="请输入你的姓名" required>
     </p>
     <p>
       <label for="studentId">学号：</label>
-      <input type="text" id="studentId" name="studentId" placeholder="请输入你的学号">
+      <input type="text" id="studentId" name="studentId" placeholder="请输入你的学号" required>
     </p>
     <p>
       <label for="class">班级：</label>
@@ -27,7 +27,7 @@
     <h2>课程评价</h2>
     <p>
       <label for="course">课程名称：</label>
-      <input type="text" id="course" name="course" placeholder="请输入课程名称">
+      <input type="text" id="course" name="course" placeholder="请输入课程名称" required>
     </p>
     <p>
       <label>课程难度：</label>
@@ -60,7 +60,11 @@
     </p>
     <p>
       <label for="feedback">意见建议：</label><br>
-      <textarea id="feedback" name="feedback" rows="5" cols="40" placeholder="请输入你对课程的意见和建议"></textarea>
+      <textarea id="feedback" name="feedback" rows="5" cols="40" placeholder="请输入你对课程的意见和建议" required></textarea>
+    </p>
+    <p>
+      <input type="submit" value="提交反馈">
+      <input type="reset" value="重置表单">
     </p>
   </form>
 </body>
